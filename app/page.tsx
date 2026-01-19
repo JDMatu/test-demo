@@ -1,23 +1,10 @@
+import { Hero } from "./components/Hero";
+
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Code Agent 007
-          </h1>
-          <p className="text-xl text-gray-400 mb-8">
-            AI-Powered Development Automation
-          </p>
-          <a
-            href="#features"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
-          >
-            Get Started
-          </a>
-        </div>
-      </section>
+      <Hero />
 
       {/* Features Section */}
       <section id="features" className="py-20 px-4 bg-gray-800/50">
